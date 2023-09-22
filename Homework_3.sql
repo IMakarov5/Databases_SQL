@@ -47,6 +47,8 @@ VALUES
 возрастания
 */
 
+
+-- в порядке: убывания
 SELECT 
 	id, 
 	firstname, 
@@ -59,6 +61,20 @@ FROM
 	staff
 ORDER BY 
 	salary DESC;
+
+-- в порядке: возрастания
+SELECT 
+	id, 
+	firstname, 
+	lastname, 
+	post, 
+	seniority, 
+	salary, 
+	age 
+FROM 
+	staff
+ORDER BY 
+	salary;
 
 /*
 Задание 2 
